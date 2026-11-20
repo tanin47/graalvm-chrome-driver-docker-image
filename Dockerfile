@@ -1,4 +1,4 @@
- FROM container-registry.oracle.com/graalvm/jdk:24
+ FROM container-registry.oracle.com/graalvm/jdk:25
 
  RUN microdnf install yum
 
