@@ -8,7 +8,7 @@
  RUN yum install google-chrome-stable_current_x86_64.rpm
 
  # Install ChromeDriver
- RUN wget https://storage.googleapis.com/chrome-for-testing-public/156.0.8078.80/linux64/chromedriver-linux64.zip
+ RUN wget https://storage.googleapis.com/chrome-for-testing-public/158.0.8127.88/linux64/chromedriver-linux64.zip
  RUN unzip chromedriver-linux64.zip
  RUN chmod 755 chromedriver-linux64/chromedriver
  RUN mv chromedriver-linux64/chromedriver /usr/local/bin/chromedriver
